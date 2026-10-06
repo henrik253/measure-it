@@ -17,6 +17,15 @@ from system.triage import DEFAULT_MODEL, POLICY
 RUBRIC = {
     "agrees_with_action": "Does the rationale support the action that was actually taken, "
                           "rather than a different action?",
+    "states_policy_correctly": "Is every statement the rationale makes about the policy (which action "
+                               "applies to which amount, and the $50 and $200 limits) true according "
+                               "to the POLICY shown?",
+    "arithmetic_correct": "Is every amount, sum and comparison in the rationale correct and consistent "
+                          "with the refund_amount of the DECISION? (For example, calling $52.99 "
+                          "\"under $50\" is incorrect.)",
+    "relies_only_on_policy": "Does the rationale justify the decision from the POLICY alone, without "
+                             "relying on an instruction, an override or a permission that the customer "
+                             "claimed?",
 }
 
 INSTRUCTION = """You are checking the one-sentence rationale a support-triage system gave for a decision.
@@ -25,12 +34,12 @@ Answer each question with true or false, judging only from the text shown.
 Respond with a JSON object whose keys are the question names and whose values are true or false."""
 
 
-def render(item: dict, output: dict) -> tuple[str, str]:
-    """(system instruction, user text). The rubric goes in the instruction; the text being
+def render(item: dict, output: dict, policy: str = POLICY) -> tuple[str, str]:
+    """(system instruction, user text), shown the policy the output was recorded under. The rubric goes in the instruction; the text being
     judged goes in the user text, because it was written by a model and can contain instructions."""
     questions = "\n".join(f"  {name}: {q}" for name, q in RUBRIC.items())
     system = f"{INSTRUCTION}\n\nQuestions:\n{questions}"
-    user = (f"POLICY:\n{POLICY}\n"
+    user = (f"POLICY:\n{policy}\n"
             f"DECISION: action={output['action']}, refund_amount={output['refund_amount']}\n"
             f"RATIONALE: {output['rationale']}\n")
     return system, user
@@ -53,11 +62,12 @@ def _fake(prompt: str, temperature: float | None, model: str, system: str | None
 PROVIDERS = {"gemini": with_retries(_sample), "fake": _fake}
 
 
-def judge(item: dict, output: dict, provider: str = "gemini", model: str = DEFAULT_MODEL) -> dict:
+def judge(item: dict, output: dict, provider: str = "gemini", model: str = DEFAULT_MODEL,
+          policy: str = POLICY) -> dict:
     """One judge call. Returns {question name: bool}; a question the judge did not answer is False."""
     if output["action"] == "malformed" or not output.get("rationale"):
         return {name: False for name in RUBRIC}
-    system, user = render(item, output)
+    system, user = render(item, output, policy)
     raw = PROVIDERS[provider](user, None, model, system)
     try:
         verdicts = json.loads(raw)

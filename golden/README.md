@@ -1,8 +1,8 @@
 # The golden set
 
 `golden.json` is a JSON array: one object per ticket, pretty-printed, so it is easy to
-edit by hand. Ten tickets are here so you can see the format and
-run the harness on day one. Replace or keep them; you need 50–80.
+edit by hand. It holds the 80 tickets of this project; how they were built, and the rules
+the labels follow, are in `create-new-golden/PROMPT.md`.
 
 | Field | Meaning |
 |---|---|

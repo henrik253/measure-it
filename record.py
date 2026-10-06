@@ -7,7 +7,8 @@
     uv run record.py --name my-prompt-edit --runs 5    # any other condition you make: name it yourself
 
 The condition name is the folder under fixtures/. It defaults to what the flags say.
-Writes fixtures/<condition>/run-<k>.jsonl, one line per call, as each call lands. Resumable:
+The policy in system/triage.py is saved next to the recordings as fixtures/policy.txt.
+Writes fixtures/<condition>/run-<k>.jsonl, one pretty-printed JSON object per call, as each call lands. Resumable:
 a call already in the file is never made again, so after a rate limit or the daily cap,
 rerun the same command and it continues where it stopped.
 """
@@ -16,7 +17,7 @@ from __future__ import annotations
 import argparse
 
 from harness import fixtures, golden
-from system import DEFAULT_MODEL, triage
+from system import DEFAULT_MODEL, POLICY, triage
 
 
 def main() -> None:
@@ -31,6 +32,7 @@ def main() -> None:
 
     items = golden.load_golden()[: args.limit]
     accounts = golden.load_accounts()
+    fixtures.save_policy(POLICY)
     for run in range(1, args.runs + 1):
         path = fixtures.run_path(name, run)
         done = fixtures.recorded_ids(path)

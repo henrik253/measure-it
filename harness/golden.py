@@ -13,6 +13,9 @@ def load_golden() -> list[dict]:
     assert isinstance(items, list), "golden.json is a JSON array of tickets"
     ids = [i["id"] for i in items]
     assert len(ids) == len(set(ids)), "duplicate id in golden.json"
+    accounts = load_accounts()
+    for i in items:  # what the model saw beside the ticket; the amount scorer reads it
+        i["account_summary"] = accounts[i["account"]]
     return items
 
 
