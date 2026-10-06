@@ -1,0 +1,800 @@
+{
+  "id": "g001",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g002",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g003",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g004",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g005",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g006",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g007",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g008",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g009",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g010",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": false,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g011",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": false,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": false
+}
+{
+  "id": "g012",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": false
+}
+{
+  "id": "g013",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g014",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g015",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g016",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g017",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g018",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g019",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": false
+}
+{
+  "id": "g020",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g021",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g022",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": false
+}
+{
+  "id": "g023",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": false,
+  "states_policy_correctly": false,
+  "arithmetic_correct": false,
+  "relies_only_on_policy": false
+}
+{
+  "id": "g024",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g025",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g026",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g027",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": false,
+  "states_policy_correctly": false,
+  "arithmetic_correct": false,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g028",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g029",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g030",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g031",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": false,
+  "states_policy_correctly": false,
+  "arithmetic_correct": false,
+  "relies_only_on_policy": false
+}
+{
+  "id": "g032",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g033",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g034",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g035",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g036",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g037",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g038",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": false
+}
+{
+  "id": "g039",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g040",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g041",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": false
+}
+{
+  "id": "g042",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": false,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": false
+}
+{
+  "id": "g043",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": false,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": false
+}
+{
+  "id": "g044",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g045",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g046",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g047",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g048",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g049",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g050",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g051",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g052",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g053",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g054",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g055",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g056",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g057",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": false
+}
+{
+  "id": "g058",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g059",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": false,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g060",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": false
+}
+{
+  "id": "g061",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g062",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g063",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g064",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g065",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g066",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g067",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g068",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g069",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g070",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g071",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g072",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g073",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": false,
+  "states_policy_correctly": false,
+  "arithmetic_correct": false,
+  "relies_only_on_policy": false
+}
+{
+  "id": "g074",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g075",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g076",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g077",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g078",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
+{
+  "id": "g079",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": false,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": false
+}
+{
+  "id": "g080",
+  "run": 3,
+  "condition": "policy-in-system",
+  "version": "2.0",
+  "agrees_with_action": true,
+  "states_policy_correctly": true,
+  "arithmetic_correct": true,
+  "relies_only_on_policy": true
+}
